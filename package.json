@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://N-o-o-b-Dev.github.io/Magzi-landing-page",
+  "homepage": "https://N-o-o-b-Dev.github.io/Magzi-Landing-Page",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
