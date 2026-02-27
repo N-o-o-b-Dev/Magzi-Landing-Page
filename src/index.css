@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.logo-font {
+  font-family: 'Cairo', sans-serif;
+  font-weight: 900;
+  letter-spacing: -0.02em;
+}
+
+.arab-text {
+  font-family: 'Cairo', sans-serif;
+}
+
+.bg-grid {
+  background-size: 40px 40px;
+}
+
+.glass-panel-light {
+  background: rgba(255, 255, 255, 0.8);
+  backdrop-filter: blur(12px);
+  border: 1px solid rgba(0, 0, 0, 0.05);
+}
+
+body {
+  background-color: #F8F9FA;
+  color: #1A1A1A;
+}
