@@ -68,7 +68,6 @@ const Contact = () => {
                                 </div>
                                 <button className="w-full bg-primary hover:bg-primary-dark text-white font-bold py-4 px-6 rounded-lg transition-all shadow-lg shadow-primary/20 hover:-translate-y-0.5 flex justify-center items-center gap-2" type="button">
                                     Send Message
-                                    <span className="material-symbols-outlined text-sm">send</span>
                                 </button>
                             </form>
                         </div>

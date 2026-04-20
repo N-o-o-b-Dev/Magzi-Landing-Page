@@ -8,31 +8,23 @@ const Hero = () => {
             </div>
             <div className="relative z-10 w-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex-grow flex flex-col justify-center pt-24">
                 <div className="max-w-4xl">
-                    <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-primary/10 border border-primary/20 backdrop-blur-sm mb-6">
-                        <span className="w-2 h-2 rounded-full bg-primary animate-pulse"></span>
-                        <span className="text-xs font-semibold tracking-wider text-primary uppercase">Quality Excellence Program</span>
-                    </div>
+
                     <h1 className="logo-font text-7xl md:text-[8.5rem] leading-[0.85] text-charcoal tracking-tighter mb-4">
                         MAGZI
                     </h1>
                     <div className="flex flex-wrap items-baseline gap-4 mb-8">
-                        <h2 className="text-3xl md:text-5xl font-light text-primary tracking-wide">QUALITY MANAGEMENT</h2>
-                        <span className="text-3xl md:text-5xl font-light text-gray-300">|</span>
-                        <h2 className="arab-text text-3xl md:text-5xl font-bold text-primary" dir="rtl">إدارة الجودة</h2>
+                        <h2 className="text-3xl md:text-5xl font-light text-primary-dark tracking-wide">QUALITY MANAGEMENT</h2>
+                        <span className="text-3xl md:text-5xl font-light text-gray-400">|</span>
+                        <h2 className="arab-text text-3xl md:text-5xl font-bold text-primary-dark" dir="rtl">إدارة الجودة</h2>
                     </div>
-                    <p className="text-xl text-gray-600 font-light max-w-2xl leading-relaxed mb-10">
-                        Setting the benchmark in industrial performance and operational integrity. We provide world-class quality management solutions to elevate your business standards.
+                    <p className="text-xl text-gray-800 font-light max-w-2xl leading-relaxed mb-10">
+                        Setting the benchmark in industrial performance and operational Excellence.
+                        We provide world-class quality management solutions to enhance your business standards.
                     </p>
                     <div className="flex flex-col sm:flex-row gap-5 mb-24">
                         <a className="px-10 py-4 bg-primary hover:bg-primary-dark text-white text-lg font-bold rounded transition-all shadow-xl shadow-primary/20 flex items-center justify-center" href="#services">
                             Discover Our Services
                         </a>
-                        <button className="px-10 py-4 bg-white hover:bg-gray-50 border border-gray-200 text-charcoal text-lg font-bold rounded transition-all flex items-center justify-center gap-3 group shadow-sm">
-                            <span className="w-6 h-6 rounded-full bg-primary text-white flex items-center justify-center">
-                                <span className="material-symbols-outlined text-sm">play_arrow</span>
-                            </span>
-                            Our Strategy
-                        </button>
                     </div>
                 </div>
             </div>
