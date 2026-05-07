@@ -10,9 +10,6 @@ const Services = () => {
                     <h3 className="text-4xl sm:text-5xl font-display font-bold text-charcoal mb-6">
                         Tailored Solutions
                     </h3>
-                    <p className="text-gray-600 text-lg">
-                        Industry-leading frameworks designed to elevate your operational standards.
-                    </p>
                 </div>
                 <div className="grid md:grid-cols-3 gap-8">
                     <div className="group relative bg-white rounded-2xl p-8 border border-gray-100 shadow-sm hover:shadow-xl hover:-translate-y-2 transition-all duration-300 flex flex-col">
@@ -40,7 +37,7 @@ const Services = () => {
                         <div className="w-16 h-16 bg-light-bg rounded-2xl flex items-center justify-center mb-6 group-hover:scale-110 transition-transform shadow-inner border border-gray-50">
                             <span className="material-symbols-outlined text-4xl text-primary">engineering</span>
                         </div>
-                        <h4 className="text-xl font-bold text-charcoal mb-4 font-display">Project Quality Management Across FEED, EPC & Construction</h4>
+                        <h4 className="text-xl font-bold text-charcoal mb-4 font-display">Project Quality Management Across FEED, EPC & Commissioning phases</h4>
                         <p className="text-gray-500 mb-4 leading-relaxed text-sm">
                             We deliver project specific quality planning, execution, and oversight across the full project lifecycle. Our team can:
                         </p>
@@ -55,6 +52,7 @@ const Services = () => {
                             <li>Guide Construction Quality Management</li>
                             <li>Direct Quality departments and guide QA/QC teams</li>
                             <li>Conduct Project QA/QC Training</li>
+                            <li>Conduct Project QA/QC Auditing</li>
                         </ul>
                         <div className="mt-auto">
                             <a className="inline-flex items-center text-primary font-semibold hover:text-charcoal transition-colors group/link" href="#">
@@ -73,6 +71,8 @@ const Services = () => {
                         <ul className="list-disc pl-5 mb-8 flex-grow text-sm text-gray-500 space-y-1.5 marker:text-primary">
                             <li>Contractor and Supplier pre qualifications</li>
                             <li>Third Party Inspection at Manufacturer premises</li>
+                            <li>Third party Inspection at Construction Sites</li>
+                            <li>QA/QC and Inspection Documents reviews.</li>
                             <li>Contractor quality performance and compliance management</li>
                         </ul>
                         <div className="mt-auto">

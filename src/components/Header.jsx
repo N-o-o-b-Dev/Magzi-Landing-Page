@@ -47,14 +47,11 @@ const Header = ({ onNavigate }) => {
                         
                         <div className="relative group py-4">
                             <button className="text-gray-800 hover:text-primary text-sm font-semibold transition-all duration-300 hover:-translate-y-0.5 flex items-center gap-1">
-                                Industries <span className="material-symbols-outlined text-[18px]">keyboard_arrow_down</span>
+                                Projects <span className="material-symbols-outlined text-[18px]">keyboard_arrow_down</span>
                             </button>
-                            <div className="absolute left-0 top-full w-56 bg-white shadow-xl border border-gray-100 rounded-md opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200 z-50 py-2">
-                                <a href="#" className="block px-4 py-2.5 text-sm font-medium text-gray-600 hover:bg-gray-50 hover:text-primary">OIL</a>
-                                <a href="#" className="block px-4 py-2.5 text-sm font-medium text-gray-600 hover:bg-gray-50 hover:text-primary">GAS</a>
-                                <a href="#" className="block px-4 py-2.5 text-sm font-medium text-gray-600 hover:bg-gray-50 hover:text-primary">PETROCHEMICAL</a>
-                                <a href="#" className="block px-4 py-2.5 text-sm font-medium text-gray-600 hover:bg-gray-50 hover:text-primary">POWER</a>
-                                <a href="#" className="block px-4 py-2.5 text-sm font-medium text-gray-600 hover:bg-gray-50 hover:text-primary">CHEMICAL</a>
+                            <div className="absolute left-0 top-full w-96 bg-white shadow-xl border border-gray-100 rounded-md opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200 z-50 py-2">
+                                <a href="#" className="block px-4 py-2.5 text-sm font-medium text-gray-600 hover:bg-gray-50 hover:text-primary">QA/QC Enhancement Project ( Client: OQ/STS)</a>
+                                <a href="#" className="block px-4 py-2.5 text-sm font-medium text-gray-600 hover:bg-gray-50 hover:text-primary">QA/QC Sustainable Program and Project Quality Support ( Client: OQ/STS)</a>
                             </div>
                         </div>
 
@@ -63,10 +60,10 @@ const Header = ({ onNavigate }) => {
                                 Clients <span className="material-symbols-outlined text-[18px]">keyboard_arrow_down</span>
                             </button>
                             <div className="absolute left-0 top-full w-72 bg-white shadow-xl border border-gray-100 rounded-md opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200 z-50 py-2">
-                                <a href="#" className="block px-4 py-2.5 text-sm font-medium text-gray-600 hover:bg-gray-50 hover:text-primary">OPERATING COMPANIES</a>
-                                <a href="#" className="block px-4 py-2.5 text-sm font-medium text-gray-600 hover:bg-gray-50 hover:text-primary">PROJECT MANAGEMENT CONSULTANTS</a>
-                                <a href="#" className="block px-4 py-2.5 text-sm font-medium text-gray-600 hover:bg-gray-50 hover:text-primary">EPC CONTRACTORS</a>
-                                <a href="#" className="block px-4 py-2.5 text-sm font-medium text-gray-600 hover:bg-gray-50 hover:text-primary">EPC SUBCONTRACTORS</a>
+                                <a href="#" className="block px-4 py-2.5 text-sm font-medium text-gray-600 hover:bg-gray-50 hover:text-primary">Operating Companies</a>
+                                <a href="#" className="block px-4 py-2.5 text-sm font-medium text-gray-600 hover:bg-gray-50 hover:text-primary">Project Management Consultants</a>
+                                <a href="#" className="block px-4 py-2.5 text-sm font-medium text-gray-600 hover:bg-gray-50 hover:text-primary">EPC Contractors</a>
+                                <a href="#" className="block px-4 py-2.5 text-sm font-medium text-gray-600 hover:bg-gray-50 hover:text-primary">EPC Subcontractors</a>
                             </div>
                         </div>
 
@@ -80,7 +77,7 @@ const Header = ({ onNavigate }) => {
                                 <a href="#services" className="block px-4 py-2.5 text-sm font-medium text-gray-600 hover:bg-gray-50 hover:text-primary" onClick={(e) => handleSectionClick(e, 'services')}>Supplier, Contractor & Third Party Quality Oversight</a>
                             </div>
                         </div>
-                        <a className="text-gray-800 hover:text-primary text-sm font-semibold transition-all duration-300 hover:-translate-y-0.5 py-4" href="#careers">Careers</a>
+                        <a className="text-gray-800 hover:text-primary text-sm font-semibold transition-all duration-300 hover:-translate-y-0.5 py-4" href="#gallery">Gallery</a>
                     </div>
                     <div className="hidden md:flex items-center gap-6">
                         <button className="text-gray-600 hover:text-primary transition-colors">
@@ -111,15 +108,12 @@ const Header = ({ onNavigate }) => {
                     <div className="border-b border-gray-50 py-2">
                         <details className="group">
                             <summary className="flex justify-between items-center font-semibold cursor-pointer list-none text-gray-800 hover:text-primary transition-all duration-300 hover:pl-2">
-                                <span>Industries</span>
+                                <span>Projects</span>
                                 <span className="transition group-open:rotate-180 material-symbols-outlined">keyboard_arrow_down</span>
                             </summary>
-                            <div className="text-neutral-600 mt-3 group-open:animate-fadeIn flex flex-col gap-3 pl-4">
-                                <a href="#" onClick={() => setIsMenuOpen(false)} className="text-sm font-medium text-gray-500 hover:text-primary">OIL</a>
-                                <a href="#" onClick={() => setIsMenuOpen(false)} className="text-sm font-medium text-gray-500 hover:text-primary">GAS</a>
-                                <a href="#" onClick={() => setIsMenuOpen(false)} className="text-sm font-medium text-gray-500 hover:text-primary">PETROCHEMICAL</a>
-                                <a href="#" onClick={() => setIsMenuOpen(false)} className="text-sm font-medium text-gray-500 hover:text-primary">POWER</a>
-                                <a href="#" onClick={() => setIsMenuOpen(false)} className="text-sm font-medium text-gray-500 hover:text-primary">CHEMICAL</a>
+                            <div className="text-neutral-600 mt-3 group-open:animate-fadeIn flex flex-col gap-3 pl-4 pr-2">
+                                <a href="#" onClick={() => setIsMenuOpen(false)} className="text-sm font-medium text-gray-500 hover:text-primary">QA/QC Enhancement Project ( Client: OQ/STS)</a>
+                                <a href="#" onClick={() => setIsMenuOpen(false)} className="text-sm font-medium text-gray-500 hover:text-primary">QA/QC Sustainable Program and Project Quality Support ( Client: OQ/STS)</a>
                             </div>
                         </details>
                     </div>
@@ -131,10 +125,10 @@ const Header = ({ onNavigate }) => {
                                 <span className="transition group-open:rotate-180 material-symbols-outlined">keyboard_arrow_down</span>
                             </summary>
                             <div className="text-neutral-600 mt-3 group-open:animate-fadeIn flex flex-col gap-3 pl-4">
-                                <a href="#" onClick={() => setIsMenuOpen(false)} className="text-sm font-medium text-gray-500 hover:text-primary">OPERATING COMPANIES</a>
-                                <a href="#" onClick={() => setIsMenuOpen(false)} className="text-sm font-medium text-gray-500 hover:text-primary">PROJECT MANAGEMENT CONSULTANTS</a>
-                                <a href="#" onClick={() => setIsMenuOpen(false)} className="text-sm font-medium text-gray-500 hover:text-primary">EPC CONTRACTORS</a>
-                                <a href="#" onClick={() => setIsMenuOpen(false)} className="text-sm font-medium text-gray-500 hover:text-primary">EPC SUBCONTRACTORS</a>
+                                <a href="#" onClick={() => setIsMenuOpen(false)} className="text-sm font-medium text-gray-500 hover:text-primary">Operating Companies</a>
+                                <a href="#" onClick={() => setIsMenuOpen(false)} className="text-sm font-medium text-gray-500 hover:text-primary">Project Management Consultants</a>
+                                <a href="#" onClick={() => setIsMenuOpen(false)} className="text-sm font-medium text-gray-500 hover:text-primary">EPC Contractors</a>
+                                <a href="#" onClick={() => setIsMenuOpen(false)} className="text-sm font-medium text-gray-500 hover:text-primary">EPC Subcontractors</a>
                             </div>
                         </details>
                     </div>
@@ -152,7 +146,7 @@ const Header = ({ onNavigate }) => {
                             </div>
                         </details>
                     </div>
-                    <a className="text-gray-800 hover:text-primary font-semibold py-2 border-b border-gray-50 transition-all duration-300 hover:pl-2" href="#careers" onClick={() => setIsMenuOpen(false)}>Careers</a>
+                    <a className="text-gray-800 hover:text-primary font-semibold py-2 border-b border-gray-50 transition-all duration-300 hover:pl-2" href="#gallery" onClick={() => setIsMenuOpen(false)}>Gallery</a>
                     <a className="bg-primary text-center hover:bg-primary-dark text-white px-8 py-3 rounded font-bold transition-all shadow-lg shadow-primary/20 mt-4" href="#contact" onClick={(e) => handleSectionClick(e, 'contact')}>
                         Contact Us
                     </a>

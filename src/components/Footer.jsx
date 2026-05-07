@@ -10,13 +10,7 @@ const Footer = () => {
                         <p className="text-gray-500 max-w-sm mb-8 leading-relaxed">
                             Leading the way in quality management solutions. We help businesses achieve excellence through standardized processes and continuous improvement.
                         </p>
-                        <div className="flex gap-4">
-                            <span className="text-primary text-xs font-bold tracking-widest uppercase">Dubai</span>
-                            <span className="text-gray-200">•</span>
-                            <span className="text-primary text-xs font-bold tracking-widest uppercase">London</span>
-                            <span className="text-gray-200">•</span>
-                            <span className="text-primary text-xs font-bold tracking-widest uppercase">Singapore</span>
-                        </div>
+
                     </div>
                     <div>
                         <h4 className="font-bold text-charcoal mb-8 text-sm uppercase tracking-widest">Navigation</h4>
